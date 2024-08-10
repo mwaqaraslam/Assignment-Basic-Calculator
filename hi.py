@@ -37,8 +37,10 @@ while True:
         next_calculation = input("Do you want to perform another calculation? (yes/no): ")
         if next_calculation.lower() != 'yes':
             break
-        else:
-            print("Invalid input. Please enter a valid choice.")
+
+    else:
+        print("Invalid input. Please enter a valid choice.")
+        
 if __name__ == "__main__":
     calculator()
 
